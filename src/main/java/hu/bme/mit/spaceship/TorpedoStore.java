@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //private variable instead of generating a new Random everytime it's used
   private final Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
